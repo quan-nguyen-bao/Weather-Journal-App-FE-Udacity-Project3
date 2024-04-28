@@ -2,7 +2,7 @@
 const sample =
   "https://api.openweathermap.org/data/2.5/weather?zip={zip code},&appid={API key}";
 const baseUrl = "https://api.openweathermap.org/data/2.5/weather";
-const apiKey = "c8f0118b0c7f1e67c31dc95fa8a741df"; // Personal API Key for OpenWeatherMap API
+const apiKey = "c8f0118b0c7f1e67c31dc95fa8a741df&units=imperial" // Personal API Key for OpenWeatherMap API
 
 const userInfo = document.getElementById("userInfo");
 
